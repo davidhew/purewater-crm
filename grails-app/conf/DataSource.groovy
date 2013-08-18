@@ -28,8 +28,8 @@ environments {
 			dbCreate = "create-drop"
 			logSql = true
 			url = "jdbc:mysql://localhost/pure_water?useUnicode=true&amp;characterEncoding=utf-8"
-			username = "root"
-			password = "123456"
+			username = "pure_water"
+			password = "1345&*eqte"
 		}
 
 	
@@ -86,10 +86,10 @@ environments {
 
 	production {
 		dataSource {
-			dbCreate = "create-drop"
-			url = "jdbc:mysql://121.199.42.155/ccclubs"
-			username = "ccclubsdb"
-			password = "NmUPoH6VEnuq8Y"
+			dbCreate = "update"
+			url = "jdbc:mysql://localhost/pure_water?useUnicode=true&amp;characterEncoding=utf-8"
+			username = "pure_water"
+			password = "1345&*eqte"
 
 			//            dbCreate = "update"
 			//            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
