@@ -43,15 +43,7 @@ environments {
 			password = "1234567"
 		}
 
-		dataSource_existing {
-			username = "com.ccclubs"
-			password = "admin@sys"
-			url = "jdbc:sqlserver://115.236.18.123:36799;databaseName=EVnetCarSharing"
-
-			driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-			dialect = "org.hibernate.dialect.SQLServerDialect"
-			readOnly = true
-		}
+	
 	}
 	localtest {
 		dataSource {
