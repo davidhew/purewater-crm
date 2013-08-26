@@ -112,9 +112,15 @@
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
 				<ul>
+				<a href="customer/index">顾客管理</a><br/>
+				<a href="peijian/index">配件管理</a><br/>
+				<a href="lvxin/index">滤芯管理</a><br/>
+				<a href="jingshuiqi/index">净水器管理</a><br/>
+				<!-- 
 					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
 						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
 					</g:each>
+				-->
 				</ul>
 			</div>
 		</div>

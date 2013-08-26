@@ -42,6 +42,8 @@ class Jingshuiqi {
 		brand maxSize: 64, blank: false, nullable: false
 		marque maxSize: 64, blank: false, nullable: false
 		buyingPrice blank: false, nullable: false
+		attributes nullable:true
+		subClass nullable:true
 		
 	}
 }

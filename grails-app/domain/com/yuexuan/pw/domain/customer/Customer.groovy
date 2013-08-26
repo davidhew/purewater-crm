@@ -16,6 +16,9 @@ class Customer {
 	//TODO:这个有点怪，需要确认一下
 	String contacts;
 	
+	//身份证号码
+	String idNumber;
+	
 	//手机号码
 	String cellPhone;
 	
@@ -24,6 +27,12 @@ class Customer {
 	
 	//其他联系方式
 	String otherContactWay;
+	
+	static constraints = {
+		name maxSize:16,blank: false, nullable: false
+		cellPhone maxSize:16,blank: false, nullable: false
+		
+	}
 	
 	//客户类型，暂时只有个人和机构2种
 	public static final enum CUSTOMER_TYPE{

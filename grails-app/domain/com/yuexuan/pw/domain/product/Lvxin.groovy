@@ -38,4 +38,6 @@ class Lvxin {
 		specification maxSize:256
 	}
 	
+	String toString(){"${this.name}"}
+	
 }
