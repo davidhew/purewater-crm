@@ -34,9 +34,6 @@ class BootStrap {
 				initAll()
 				
 			}
-			prod{
-				initAll()
-			}
 		}
     }
 	
