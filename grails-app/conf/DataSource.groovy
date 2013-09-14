@@ -64,16 +64,6 @@ environments {
 			password = "ccclubs2013"
 		}
 
-		dataSource_existing {
-			username = "com.ccclubs"
-			password = "admin@sys"
-			url = "jdbc:sqlserver://60.191.57.34:36799;databaseName=EVnetCarSharing"
-
-			driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-			dialect = "org.hibernate.dialect.SQLServerDialect"
-
-			readOnly = true
-		}
 	}
 
 	production {
@@ -82,26 +72,6 @@ environments {
 			url = "jdbc:mysql://localhost/pure_water?useUnicode=true&amp;characterEncoding=utf-8"
 			username = "pure_water"
 			password = "1345&*eqte"
-
-			//            dbCreate = "update"
-			//            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
-			//            pooled = true
-			//            properties {
-			//               maxActive = -1
-			//               minEvictableIdleTimeMillis=1800000
-			//               timeBetweenEvictionRunsMillis=1800000
-			//               numTestsPerEvictionRun=3
-			//               testOnBorrow=true
-			//               testWhileIdle=true
-			//               testOnReturn=true
-			//               validationQuery="SELECT 1"
-		}
-	}
-	production_admin {
-		dataSource {
-			url = "jdbc:mysql://121.199.42.155/ccclubs"
-			username = "ccclubsdb"
-			password = "NmUPoH6VEnuq8Y"
 
 			//            dbCreate = "update"
 			//            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
